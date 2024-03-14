@@ -38,9 +38,7 @@ api_key = st.secrets["OPENAI_API_KEY"]
 client = OpenAI(api_key=api_key)
 
 
-# Display logo
-logo_url = "https://firebasestorage.googleapis.com/v0/b/diario-ad840.appspot.com/o/Logo%20Netsat%20(1).jpg?alt=media&token=1a991e1d-cbdb-47a3-a4d9-d89e5d96a303"
-st.image(logo_url, use_column_width=True)
+
 
 with st.sidebar:
     st.write("  SAP AI Bot es un proyecto de IA + SAP")
