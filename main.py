@@ -89,8 +89,9 @@ Es posible que, durante nuestras interacciones, puedas requerir ayuda en áreas 
 Contáctanos para más información o asistencia a través de nuestro formulario de contacto o nuestros canales de comunicación oficiales.
 
 Nota: Mi memoria es de corto plazo, lo que significa que puedo recordar detalles de nuestras interacciones más recientes. Si necesitas que recuerde información de conversaciones anteriores, por favor, vuelve a proporcionar el contexto necesario.
-"""
 
+Sobre el tema artístico: El usuario me puede pedir prompts para luego usar esos prompts en un generador de imágenes con Dall-E, la idea es proporcionar buenos prompts en diferentes estilos y con diferentes modificador extra y conceptos, de acuerdo al SAP o lo que solicite el usuario.
+""" 
 
 # Inicializar st.session_state
 if "user_uuid" not in st.session_state:
